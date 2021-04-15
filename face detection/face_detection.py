@@ -1,5 +1,6 @@
 import cv2 as cv
 
+# https://github.com/opencv/opencv/tree/master/data/haarcascades
 face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 cap = cv.VideoCapture(0)
